@@ -5,19 +5,19 @@ import { Typewriter } from "react-simple-typewriter"; // For dynamic profession 
 
 const Hero = () => {
   return (
-    <div className="bg-gradient-to-b from-gray-900 to-primary h-screen flex flex-col justify-center items-center text-white px-6 md:px-12 lg:px-24 py-10">
+    <div className=" h-screen flex flex-col justify-center items-center text-white px-4 md:px-8 lg:px-12 py-8">
       
       {/* Avatar Section */}
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1 }}
-        className="mb-6"
+        className="mb-4"
       >
         <img
           src="/young.jpg" // Replace with your avatar image URL
           alt="Avatar"
-          className="rounded-full w-40 h-40 object-cover md:w-48 md:h-48 lg:w-56 lg:h-56"
+          className="rounded-full w-32 h-32 object-cover md:w-40 md:h-40 lg:w-48 lg:h-48"
         />
       </motion.div>
 
@@ -26,14 +26,14 @@ const Hero = () => {
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
-        className="text-center max-w-2xl mx-auto"
+        className="text-center max-w-xl mx-auto"
       >
-        <h1 className="text-5xl font-extrabold mb-2 tracking-wide">
+        <h1 className="text-4xl font-extrabold mb-2 tracking-wide md:text-5xl">
           Hi, I'm <span className="text-indigo-500">John Doe</span>
         </h1>
         
         {/* Dynamic Typing Effect */}
-        <p className="text-3xl font-semibold mb-4">
+        <p className="text-2xl font-semibold mb-2 md:text-3xl">
           I am a{" "}
           <span className="text-indigo-400">
             <Typewriter
@@ -54,7 +54,7 @@ const Hero = () => {
         </p>
 
         {/* Short Description */}
-        <p className="text-lg mb-6 max-w-md mx-auto">
+        <p className="text-base mb-4 max-w-md mx-auto md:text-lg">
           Crafting seamless web and mobile applications while mastering data structures and algorithms.
         </p>
 
@@ -64,7 +64,7 @@ const Hero = () => {
           download="AnuragYadavResume.pdf"
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
-          className="bg-indigo-600 hover:bg-indigo-800 text-white font-semibold py-3 px-6 rounded-full transition-colors duration-300 shadow-lg transform hover:translate-y-[-2px]"
+          className="bg-indigo-600 hover:bg-indigo-800 text-white font-semibold py-2 px-4 rounded-full transition-colors duration-300 shadow-lg transform hover:translate-y-[-2px]"
         >
           Download Resume
         </motion.a>
@@ -72,19 +72,19 @@ const Hero = () => {
 
       {/* Social Media Icons */}
       <motion.div
-        className="flex space-x-6 mt-10"
+        className="flex space-x-4 mt-6"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1, duration: 1 }}
       >
         <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-          <FaGithub className="text-3xl hover:text-gray-400 transition-colors duration-300" />
+          <FaGithub className="text-2xl hover:text-gray-400 transition-colors duration-300" />
         </a>
         <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-          <FaLinkedin className="text-3xl hover:text-blue-400 transition-colors duration-300" />
+          <FaLinkedin className="text-2xl hover:text-blue-400 transition-colors duration-300" />
         </a>
         <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-          <FaTwitter className="text-3xl hover:text-blue-300 transition-colors duration-300" />
+          <FaTwitter className="text-2xl hover:text-blue-300 transition-colors duration-300" />
         </a>
       </motion.div>
     </div>
