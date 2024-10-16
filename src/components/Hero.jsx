@@ -29,7 +29,7 @@ const Hero = () => {
         className="text-center max-w-xl mx-auto"
       >
         <h1 className="text-4xl font-extrabold mb-2 tracking-wide md:text-5xl">
-          Hi, I'm <span className="text-indigo-500">John Doe</span>
+          Hi, I'm <span className="text-indigo-500">Anurag Yadav</span>
         </h1>
         
         {/* Dynamic Typing Effect */}
