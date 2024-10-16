@@ -5,7 +5,7 @@ import { Typewriter } from "react-simple-typewriter"; // For dynamic profession 
 
 const Hero = () => {
   return (
-    <div className="bg-gradient-to-b from-gray-900 to-primary h-screen flex flex-col justify-center items-center text-white px-6 md:px-12 lg:px-24">
+    <div className="bg-gradient-to-b from-gray-900 to-primary h-screen flex flex-col justify-center items-center text-white px-6 md:px-12 lg:px-24 py-10">
       
       {/* Avatar Section */}
       <motion.div
