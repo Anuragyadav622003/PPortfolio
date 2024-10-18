@@ -15,7 +15,7 @@ const Hero = () => {
         className="mb-4"
       >
         <img
-          src="/young.jpg" // Replace with your avatar image URL
+          src="/young.avif" // Replace with your avatar image URL
           alt="Avatar"
           className="rounded-full w-32 h-32 object-cover md:w-40 md:h-40 lg:w-48 lg:h-48"
         />
@@ -29,7 +29,7 @@ const Hero = () => {
         className="text-center max-w-xl mx-auto"
       >
         <h1 className="text-4xl font-extrabold mb-2 tracking-wide md:text-5xl">
-          Hi, I'm <span className="text-indigo-500">Anurag Yadav</span>
+          Hi, I'm <span className="text-indigo-500">Poornima Bajpai</span>
         </h1>
         
         {/* Dynamic Typing Effect */}
@@ -38,10 +38,10 @@ const Hero = () => {
           <span className="text-indigo-400">
             <Typewriter
               words={[
-                "Full Stack Web Developer",
-                "Mobile Application Developer",
-                "C++ Programmer",
-                "DSA Enthusiast",
+                "Software Developer",
+                "Frontend Developer",
+                "Python Programmer",
+                "Java Programmer",
               ]}
               loop={true}
               cursor
@@ -55,7 +55,7 @@ const Hero = () => {
 
         {/* Short Description */}
         <p className="text-base mb-4 max-w-md mx-auto md:text-lg">
-          Crafting seamless web and mobile applications while mastering data structures and algorithms.
+        Master seamless frontend development with modern JavaScript frameworks, responsive design, and optimized performance. 
         </p>
 
         {/* Download Resume Button */}
@@ -77,13 +77,13 @@ const Hero = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 1, duration: 1 }}
       >
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/bajpaipoornima" target="_blank" rel="noopener noreferrer">
           <FaGithub className="text-2xl hover:text-gray-400 transition-colors duration-300" />
         </a>
-        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/poornima-bajpai-3b3801227/" target="_blank" rel="noopener noreferrer">
           <FaLinkedin className="text-2xl hover:text-blue-400 transition-colors duration-300" />
         </a>
-        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+        <a href="#" target="_blank" rel="noopener noreferrer">
           <FaTwitter className="text-2xl hover:text-blue-300 transition-colors duration-300" />
         </a>
       </motion.div>

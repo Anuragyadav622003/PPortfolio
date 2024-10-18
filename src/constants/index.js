@@ -57,15 +57,15 @@ export const navLinks = [,
 
 const services = [
   {
-    title: "React Developer",
+    title: "Python Programmer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Java Programmer",
     icon: mobile,
   },
   {
-    title: "NodeJs Developer",
+    title: "Frontend Developer",
     icon: backend,
   },
   {
@@ -76,11 +76,11 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
+    name: "HTML",
     icon: html,
   },
   {
-    name: "CSS 3",
+    name: "CSS",
     icon: css,
   },
   {
@@ -91,27 +91,6 @@ const technologies = [
   {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Next JS",
-    icon: nextJs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
   },
   
   {
@@ -125,87 +104,41 @@ const technologies = [
 ];
 
 const experiences = [
-  {
-    title: "Software Engineer",
-    company_name: "",
-    company_website: "https://e-learning-plateform-six.vercel.app/",
-    icon: nickelfox,
-    iconBg: "#E6DEDD",
-    date: "Oct 2024 - Present",
-    points:  [
-      "Building a dynamic and interactive platform for delivering engaging online courses using modern web and mobile technologies.",
-      "Collaborating with subject matter experts, instructional designers, and developers to create high-quality educational content.",
-      "Implementing a user-friendly interface and responsive design, ensuring accessibility on web and mobile devices.",
-      "Enabling personalized learning paths, progress tracking, and performance analytics for a tailored educational experience.",
-      "Supporting real-time collaboration through interactive features like quizzes, discussions, and live sessions.",
-      "Ensuring the platform's scalability, security, and cross-browser compatibility.",
-      "Integrating multimedia content such as videos, infographics, and assessments to enhance learning outcomes.",
-      "Gathering feedback from learners and educators to continuously improve platform features and content."
-    ],
-  },
+
   {
     title: "Software Developer",
-    company_name: "",
-    company_website:"https://e-learning-plateform-admin.vercel.app/",
+    company_name: "CipherByte Technologies pvt.lmt ( Software development intern ",
+    company_website:"#",
     icon: newgen,
     iconBg: "#E6DEDD",
-    date: "Oct 2024 - Present",
+    date: "Sep 2023 - Nov 2023",
     points: [
-      "Providing a clean and intuitive interface for learners to easily access courses, assignments, and learning materials.",
-      "Displaying real-time progress tracking, including course completion percentages, upcoming deadlines, and learning milestones.",
-      "Offering personalized course recommendations based on learner interests and performance history.",
-      "Integrating detailed performance analytics, allowing users to view quiz results, grades, and feedback from instructors.",
-      "Enabling easy navigation through course modules, assignments, and assessments with a clear layout and organized structure.",
-      "Supporting communication tools such as messaging, discussion forums, and announcements to facilitate collaboration between learners and instructors.",
-      "Allowing users to set goals, track their achievements, and monitor their learning paths on the dashboard.",
-      "Providing instant access to certificates and achievements upon course completion."
+      "Gain practical experience by contributing to real-world projects and applying theoretical knowledge",
+      "Improve programming skills and learn best practices in software development.",
+      "Receive mentorship from experienced developers while building valuable professional connections."
     ],
   },
   {
     title: "Software Engineer Intern",
-    company_name: "",
+    company_name: "Codsoft (C++ programmer intern)",
     company_website: "https://github.com/Anuragyadav622003/FitFolio-Health-Fitness-Tracker-app-android",
     icon: skillrisers,
     iconBg: "#E6DEDD",
-    date: "May 2023 - Jul 2023",
+    date: "Jul 2023 - Sep 2023",
     points: [
-      "Offering a personalized dashboard displaying daily, weekly, and monthly fitness goals and progress tracking.",
-      "Providing real-time updates on activity metrics such as steps, calories burned, distance covered, and heart rate monitoring.",
-      "Enabling users to log workouts, set goals, and track progress across different fitness activities like running, cycling, swimming, and more.",
-      "Displaying nutrition tracking with daily calorie intake, macronutrient breakdown, and meal recommendations for personalized diet plans.",
-      "Integrating workout plans, video tutorials, and guided exercise routines directly on the dashboard for easy access.",
-      "Allowing users to set fitness challenges and compete with friends or within the community for added motivation.",
-      "Offering goal-setting tools for tracking weight loss, muscle gain, or general health improvements.",
-      "Providing reminders and notifications for workouts, hydration, and rest periods to maintain consistency.",
-      "Supporting integration with wearable devices to sync data on activity, sleep patterns, and overall health metrics."
+     "Collaborate with cross-functional teams to understand project requirements and contribute to the overall software development process.",
+     "Participate in code reviews and learn to write clean, maintainable code while receiving constructive feedback from peers.",
+     "Assist in debugging and troubleshooting software issues, gaining insights into problem-solving and quality assurance practices."
     ],
   },
-  {
-    title: "Full Stack  Developer",
-    company_name: "",
-    company_website: "https://arun-job-seeker.netlify.app",
-    icon: proximus,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Feb 2023",
-    points:[
-      "Providing a user-friendly dashboard for job seekers to search, filter, and apply to job openings based on skills, location, and preferences.",
-      "Displaying personalized job recommendations based on user profile, resume, and job search history.",
-      "Enabling job seekers to create, update, and manage their profiles, resumes, and cover letters directly from the dashboard.",
-      "Offering real-time application tracking, showing the status of job applications and any updates from employers.",
-      "Allowing users to set job alerts and receive notifications for new job postings that match their preferences.",
-      "Supporting employer profiles and detailed job descriptions, including company insights, salary information, and work culture.",
-      "Facilitating direct communication between employers and candidates through in-app messaging and interview scheduling features.",
-      "Integrating career development resources such as resume-building tools, interview preparation guides, and skill assessments.",
-      "Providing analytics on job search performance, such as profile views, application responses, and employer engagement."
-    ],
-  },
+ 
 ];
 
 const projects = [
   {
-    name: "E-Learning-plateform",
+    name: "Food Delivery",
     description:
-      "Transforming education in New York State with an intuitive platform for personalized learning and skill development. This platform acts as a digital gateway to a wide range of courses and learning tools, empowering students and professionals to track their progress and achieve their educational goals at their own pace",
+      "The QuickBite frontend offers a sleek and intuitive interface, making it easy to browse local restaurants and menus.With responsive design and engaging features, users can effortlessly place orders and track their deliveries in real-time",
     tags: [
       {
         name: "reactjs",
@@ -225,12 +158,12 @@ const projects = [
       },
     ],
     image:aptihealthApp ,
-    hosted_link: "https://e-learning-plateform-six.vercel.app/",
+    hosted_link: "https://github.com/bajpaipoornima/food-website",
   },
   {
-    name: "Dashboard",
+    name: "Tutle-graphics",
     description:
-      "Revolutionizing education in New York State with a user-friendly dashboard for personalized learning and performance tracking. Provides a digital gateway to a comprehensive range of courses and educational resources, enabling seamless progress monitoring and skill development for learners of all levels",
+      "The Turtle graphics project showcases the beauty of programming by creating stunning visual patterns and shapes with simple code.Users can explore their creativity by manipulating colors, angles, and movements, resulting in unique and captivating designs",
     tags: [
       {
         name: "react",
@@ -250,12 +183,12 @@ const projects = [
       },
     ],
     image: aptihealthWeb,
-    hosted_link: "https://e-learning-plateform-admin.vercel.app/admin/dashboard",
+    hosted_link: "https://github.com/bajpaipoornima/turtel_graphics",
   },
   {
-    name: "Fitfolio app",
+    name: "CBT-Calculator",
     description:
-      "Revolutionizing health and fitness in New York State with a user-friendly mobile app for personalized workouts and progress tracking. Provides the digital gateway to comprehensive wellness programs, enabling users to monitor their fitness goals, track their activities, and improve their overall health with tailored plans.",
+      "The CBT calculator project provides a user-friendly interface for students to practice and evaluate their knowledge with interactive quizzes.With features like timed assessments and instant feedback, users can enhance their learning experience!",
     tags: [
       {
         name: "react-native",
@@ -271,7 +204,7 @@ const projects = [
       },
     ],
     image: zealWeb,
-    hosted_link: "https://github.com/Anuragyadav622003/FitFolio-Health-Fitness-Tracker-app-android",
+    hosted_link: "https://github.com/bajpaipoornima/CBTC_-CALCULATER",
   },
   // {
   //   name: "Zeal App",
@@ -341,13 +274,12 @@ const projects = [
 ];
 
 const personalInfo = {
-  name: "Anurag Yadav",
-  fullName: "Anurag Yadav",
-  email: "anuragyadav622003@gmail.com",
+  name: "Poornima Bajpai",
+  fullName: "Poornima Bajpai",
+  email: "pornima20jan@gmail.com",
   role: "Software Developer",
-  about: `I'm a skilled software developer with experience in 
-  JavaScript, and expertise in frameworks like React.Js, React-naitve,
-  Node.js, Express.js etc. I'm a quick learner and collaborate closely with clients to
+  about: `I'm a skilled software developer with experience in HTML, CSS 
+  JavaScript, and expertise in frameworks like React.js . I'm a quick learner and collaborate closely with clients to
   create efficient, scalable, and user-friendly solutions that solve
   real-world problems. Let's work together to bring your ideas to life!`,
   projectsIntro: `Following projects showcases my skills and experience through
@@ -362,12 +294,12 @@ const publicUrls = {
   socialProfiles: {
     linkedin: {
       title: "linkedin",
-      link: "https://www.linkedin.com/in/anurag-yadav-3704b1239/",
+      link: "https://www.linkedin.com/in/poornima-bajpai-3b3801227/",
       icon: linkedIn,
     },
     github: {
       title: "github",
-      link: "https://github.com/Anuragyadav622003",
+      link: "https://github.com/bajpaipoornima",
       icon: github,
     },
   },
