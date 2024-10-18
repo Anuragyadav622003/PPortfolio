@@ -5,7 +5,7 @@ import { Typewriter } from "react-simple-typewriter"; // For dynamic profession 
 
 const Hero = () => {
   return (
-    <div className=" h-screen flex flex-col justify-center items-center text-white px-4 md:px-8 lg:px-12 py-10">
+    <div className=" h-screen flex flex-col justify-center items-center text-white px-4 md:px-8 lg:px-12 pt-10 pb-2">
       
       {/* Avatar Section */}
       <motion.div
