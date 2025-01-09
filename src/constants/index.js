@@ -108,7 +108,7 @@ const experiences = [
   {
     title: "Software Developer",
     company_name: "CipherByte Technologies pvt.lmt ( Software development intern ",
-    company_website:"#",
+    company_website:"https://github.com/bajpaipoornima/cbtctodolist",
     icon: newgen,
     iconBg: "#E6DEDD",
     date: "Sep 2023 - Nov 2023",
@@ -121,7 +121,7 @@ const experiences = [
   {
     title: "Software Engineer Intern",
     company_name: "Codsoft (C++ programmer intern)",
-    company_website: "https://github.com/Anuragyadav622003/FitFolio-Health-Fitness-Tracker-app-android",
+    company_website: "https://github.com/bajpaipoornima/codsoft",
     icon: skillrisers,
     iconBg: "#E6DEDD",
     date: "Jul 2023 - Sep 2023",

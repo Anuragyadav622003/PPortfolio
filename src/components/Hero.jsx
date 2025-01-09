@@ -60,8 +60,8 @@ const Hero = () => {
 
         {/* Download Resume Button */}
         <motion.a
-          href="/AnuragYadavResume.pdf" // Replace with the actual path to your resume
-          download="AnuragYadavResume.pdf"
+          href="/poornima bajpai@cv.pdf" // Replace with the actual path to your resume
+          download="poornima bajpai@cv.pdf"
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
           className="bg-indigo-600 hover:bg-indigo-800 text-white font-semibold py-2 px-4 rounded-full transition-colors duration-300 shadow-lg transform hover:translate-y-[-2px]"
