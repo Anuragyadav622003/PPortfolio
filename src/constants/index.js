@@ -30,6 +30,7 @@ import {
   github,
 
 } from "../assets";
+import amaz from '../assets/projects/amaz.png'
 
 const navigationPaths = {
   home: "/",
@@ -136,9 +137,26 @@ const experiences = [
 
 const projects = [
   {
+    name: "Amazon Clone",
+    description:
+      "An Amazon Clone built with React and Tailwind CSS, featuring a seamless user interface for browsing products, adding items to the cart, and completing purchases. This project highlights responsive design, state management, and engaging e-commerce functionalities.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "green-text-gradient",
+      },
+    ],
+    image: amaz,
+    hosted_link: "https://github.com/bajpaipoornima/amazon-clone",
+  },
+  {
     name: "Food Delivery",
     description:
-      "The QuickBite frontend offers a sleek and intuitive interface, making it easy to browse local restaurants and menus.With responsive design and engaging features, users can effortlessly place orders and track their deliveries in real-time",
+      "The QuickBite frontend offers a sleek and intuitive interface, making it easy to browse local restaurants and menus. With responsive design and engaging features, users can effortlessly place orders and track their deliveries in real-time.",
     tags: [
       {
         name: "reactjs",
@@ -157,13 +175,13 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image:aptihealthApp ,
+    image: aptihealthApp,
     hosted_link: "https://github.com/bajpaipoornima/food-website",
   },
   {
     name: "Tutle-graphics",
     description:
-      "The Turtle graphics project showcases the beauty of programming by creating stunning visual patterns and shapes with simple code.Users can explore their creativity by manipulating colors, angles, and movements, resulting in unique and captivating designs",
+      "The Turtle graphics project showcases the beauty of programming by creating stunning visual patterns and shapes with simple code. Users can explore their creativity by manipulating colors, angles, and movements, resulting in unique and captivating designs.",
     tags: [
       {
         name: "react",
@@ -188,7 +206,7 @@ const projects = [
   {
     name: "CBT-Calculator",
     description:
-      "The CBT calculator project provides a user-friendly interface for students to practice and evaluate their knowledge with interactive quizzes.With features like timed assessments and instant feedback, users can enhance their learning experience!",
+      "The CBT calculator project provides a user-friendly interface for students to practice and evaluate their knowledge with interactive quizzes. With features like timed assessments and instant feedback, users can enhance their learning experience!",
     tags: [
       {
         name: "react-native",
@@ -206,72 +224,9 @@ const projects = [
     image: zealWeb,
     hosted_link: "https://github.com/bajpaipoornima/CBTC_-CALCULATER",
   },
-  // {
-  //   name: "Zeal App",
-  //   description:
-  //     "Discover a world of activities with friends through Zeal, an engaging platform. Create events, post updates, chat, and enjoy in-person activities hassle-free. Boost your social life with Zeal!",
-  //   tags: [
-  //     {
-  //       name: "react-native",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "sendgrid",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "typescript",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: zealApp,
-  //   hosted_link:
-  //     "https://apps.apple.com/us/app/zeal-activities-with-friends/id6446917140",
-  // },
-  // {
-  //   name: "Roll Web",
-  //   description:
-  //     "The Roll website is the gateway to the future of decentralized communities and digital assets. It allows users to seamlessly earn, redeem, send, and trade social tokens.",
-  //   tags: [
-  //     {
-  //       name: "reactjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwind",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "formik",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: rollWeb,
-  //   hosted_link: "https://app.tryroll.com/",
-  // },
-  // {
-  //   name: "Roll App",
-  //   description:
-  //     "Join the future of decentralized communities and digital assets with Roll. Earn, redeem, send, and trade social tokens on this innovative platform. Experience transparent transactions and captivating UI design.",
-  //   tags: [
-  //     {
-  //       name: "react-native-web",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwind",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "storybook",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: rollApp,
-  //   hosted_link:
-  //     "https://play.google.com/store/apps/details?id=com.roll&hl=en_GB",
-  // },
+ 
 ];
+
 
 const personalInfo = {
   name: "Poornima Bajpai",
