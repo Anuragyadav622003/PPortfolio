@@ -151,7 +151,7 @@ const projects = [
       },
     ],
     image: amaz,
-    hosted_link: "https://github.com/bajpaipoornima/amazon-clone",
+    hosted_link: "https://amazon-clone-mii1.vercel.app/",
   },
   {
     name: "Food Delivery",
@@ -176,7 +176,7 @@ const projects = [
       },
     ],
     image: aptihealthApp,
-    hosted_link: "https://github.com/bajpaipoornima/food-website",
+    hosted_link: "https://food-website-neon-mu.vercel.app/",
   },
   {
     name: "Tutle-graphics",
