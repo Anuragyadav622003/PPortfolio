@@ -153,7 +153,7 @@ const projects = [
       },
     ],
     image: qr,
-    hosted_link: "#",
+    hosted_link: "https://qr-ochre-ten.vercel.app/",
   },
   {
     name: "Amazon Clone",
