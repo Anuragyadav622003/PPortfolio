@@ -28,19 +28,18 @@ import {
   rollApp,
   linkedIn,
   github,
-
 } from "../assets";
-import amaz from '../assets/projects/amaz.png'
-
+import amaz from "../assets/projects/amaz.png";
+import qr from "../assets/projects/qr.png"
 const navigationPaths = {
   home: "/",
   about: "about",
   work: "work",
   contact: "contact",
- 
 };
 
-export const navLinks = [,
+export const navLinks = [
+  ,
   {
     id: navigationPaths.about,
     title: "About",
@@ -49,7 +48,7 @@ export const navLinks = [,
     id: navigationPaths.work,
     title: "Work",
   },
-  
+
   {
     id: navigationPaths.contact,
     title: "Contact",
@@ -88,12 +87,12 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
- 
+
   {
     name: "React JS",
     icon: reactjs,
   },
-  
+
   {
     name: "MySQL",
     icon: mysql,
@@ -105,18 +104,18 @@ const technologies = [
 ];
 
 const experiences = [
-
   {
     title: "Software Developer",
-    company_name: "CipherByte Technologies pvt.lmt ( Software development intern ",
-    company_website:"https://github.com/bajpaipoornima/cbtctodolist",
+    company_name:
+      "CipherByte Technologies pvt.lmt ( Software development intern ",
+    company_website: "https://github.com/bajpaipoornima/cbtctodolist",
     icon: newgen,
     iconBg: "#E6DEDD",
     date: "Sep 2023 - Nov 2023",
     points: [
       "Gain practical experience by contributing to real-world projects and applying theoretical knowledge",
       "Improve programming skills and learn best practices in software development.",
-      "Receive mentorship from experienced developers while building valuable professional connections."
+      "Receive mentorship from experienced developers while building valuable professional connections.",
     ],
   },
   {
@@ -127,15 +126,35 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Jul 2023 - Sep 2023",
     points: [
-     "Collaborate with cross-functional teams to understand project requirements and contribute to the overall software development process.",
-     "Participate in code reviews and learn to write clean, maintainable code while receiving constructive feedback from peers.",
-     "Assist in debugging and troubleshooting software issues, gaining insights into problem-solving and quality assurance practices."
+      "Collaborate with cross-functional teams to understand project requirements and contribute to the overall software development process.",
+      "Participate in code reviews and learn to write clean, maintainable code while receiving constructive feedback from peers.",
+      "Assist in debugging and troubleshooting software issues, gaining insights into problem-solving and quality assurance practices.",
     ],
   },
- 
 ];
 
 const projects = [
+  {
+    name: "QR Code Generator",
+    description:
+      "A simple and stylish QR Code Generator built with HTML, CSS, and JavaScript. Users can enter any text or URL to generate a scannable QR code instantly. This project showcases interactive UI, form validation, and responsive design.",
+    tags: [
+      {
+        name: "html",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "css",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: qr,
+    hosted_link: "#",
+  },
   {
     name: "Amazon Clone",
     description:
@@ -224,9 +243,7 @@ const projects = [
     image: zealWeb,
     hosted_link: "https://github.com/bajpaipoornima/CBTC_-CALCULATER",
   },
- 
 ];
-
 
 const personalInfo = {
   name: "Poornima Bajpai",
